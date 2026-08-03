@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanni Muhammed Arafat | Full-Stack Software Developer</title>
+  <meta name="description" content="Portfolio of Sanni Muhammed Arafat, a Full-Stack Software Developer building modern, secure, and scalable web applications." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+  <!-- Scroll Progress Bar -->
+  <div id="progress-bar"></div>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo">SMA<span class="logo-dot">.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+          <i class="fas fa-sun"></i>
+        </button>
+        <button id="hamburger" class="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ================= HERO ================= -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Sanni Muhammed Arafat</h1>
+      <h2 class="hero-role"><span id="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+      <p class="hero-bio">
+        I build modern, secure, and scalable web applications that solve real-world problems.
+        With experience in frontend development, backend systems, databases, and entry-level DevOps,
+        I enjoy transforming ideas into reliable digital solutions.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="assets/placeholder-cv.pdf" download="Sanni_Muhammed_Arafat_CV.pdf" class="btn btn-outline">Download CV</a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-card">
+        <div class="code-card-header">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="code-title">developer.js</span>
+        </div>
+        <pre class="code-body"><code><span class="c-keyword">const</span> <span class="c-name">developer</span> = {
+  <span class="c-key">name</span>: <span class="c-str">"Sanni Muhammed Arafat"</span>,
+  <span class="c-key">role</span>: <span class="c-str">"Full-Stack Developer"</span>,
+  <span class="c-key">skills</span>: [<span class="c-str">"Frontend"</span>, <span class="c-str">"Backend"</span>, <span class="c-str">"DevOps"</span>],
+  <span class="c-key">passion</span>: <span class="c-str">"Building real solutions"</span>,
+  <span class="c-key">goal</span>: <span class="c-str">"World-Class Engineer"</span>
+};</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Get to know me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Hello! I'm <strong>Sanni Muhammed Arafat</strong>, a Computer Science student at
+            <strong>Yaba College of Technology (YABATECH)</strong> and a Full-Stack Software Developer
+            based in Ogun State, Nigeria.
+          </p>
+          <p>
+            My journey into software development began with a curiosity about how technology can simplify
+            everyday processes. Since then, I have built applications for businesses and educational
+            institutions, focusing on creating software that is practical, secure, and user-friendly.
+          </p>
+          <p>
+            I have worked as an <strong>IT Instructor at GIIT AFRICA</strong>, where I trained aspiring
+            developers in web development and programming concepts while mentoring them through practical
+            projects. Alongside teaching, I have completed freelance projects and developed several
+            production-ready web applications.
+          </p>
+          <p>
+            I enjoy solving challenging problems, learning new technologies, and continuously improving my
+            skills in software engineering and cloud technologies. My long-term goal is to become a
+            world-class Software Engineer building systems that positively impact businesses and communities.
+          </p>
+        </div>
+        <div class="about-card">
+          <div class="about-info">
+            <div class="info-item"><i class="fas fa-user"></i><span>Name</span><strong>Sanni Muhammed Arafat</strong></div>
+            <div class="info-item"><i class="fas fa-graduation-cap"></i><span>Education</span><strong>Computer Science, YABATECH</strong></div>
+            <div class="info-item"><i class="fas fa-map-marker-alt"></i><span>Location</span><strong>Agbado, Ogun State, Nigeria</strong></div>
+            <div class="info-item"><i class="fas fa-envelope"></i><span>Email</span><strong>sannimuhammedarafat1@gmail.com</strong></div>
+            <div class="info-item"><i class="fas fa-phone"></i><span>Phone</span><strong>+234 901 829 7659</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Technical Skills</span>
+        <h2 class="section-title">My Toolbox</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-html5"></i></div>
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML5</li><li>CSS3</li><li>JavaScript (ES6+)</li><li>React</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-server"></i></div>
+          <h3>Backend</h3>
+          <ul>
+            <li>Node.js</li><li>Express.js</li><li>PHP</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-database"></i></div>
+<h3>Database</h3>
+          <ul>
+            <li>MongoDB</li><li>MySQL</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+          <h3>Version Control</h3>
+          <ul><li>Git</li><li>GitHub</li></ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+          <h3>DevOps (Entry Level)</h3>
+          <ul>
+            <li>Docker</li><li>Kubernetes</li><li>AWS EC2</li><li>CI/CD</li><li>Grafana</li><li>Prometheus</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-tools"></i></div>
+          <h3>Other Skills</h3>
+          <ul>
+            <li>REST API Development</li>
+            <li>Authentication & Authorization</li>
+            <li>Responsive Web Design</li>
+            <li>Deployment</li>
+            <li>Software Troubleshooting</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Professional Experience</span>
+        <h2 class="section-title">Where I've worked</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <h3>IT Instructor</h3>
+            <span class="timeline-org">GIIT AFRICA</span>
+            <span class="timeline-date">April 2025 – October 2025</span>
+            <ul>
+              <li>Delivered practical training in web development.</li>
+              <li>Mentored students on software development projects.</li>
+              <li>Assisted students with debugging and troubleshooting.</li>
+              <li>Developed training materials and practical exercises.</li>
+              <li>Guided learners on best practices in software development.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <h3>Freelance Full-Stack Developer</h3>
+            <span class="timeline-org">Self-Employed</span>
+            <span class="timeline-date">Ongoing</span>
+            <p>
+              Developed custom web applications for clients by analyzing business requirements and
+              delivering responsive, secure, and scalable solutions.
+            </p>
+            <p><strong>Projects included:</strong></p>
+            <ul>
+              <li>Event Planning Platform</li>
+              <li>Learning Management System</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Featured Projects</span>
+        <h2 class="section-title">Things I've built</h2>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="project-shots">
+            <div class="shot-frame desktop">
+              <span class="shot-label">Desktop View</span>
+<img src="assets/desktop view.png" alt="Exit Request Management System desktop view" class="placeholder-img" />
+            </div>
+            <div class="shot-frame mobile">
+              <span class="shot-label">Mobile View</span>
+<img src="assets/exit request 1.jpeg" alt="Exit Request Management System mobile view" class="placeholder-img" />
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Exit Request Management System</h3>
+            <p>A web application that digitizes employee exit requests within organizations.</p>
+            <div class="project-features">
+              <h4>Key Features</h4>
+              <ul>
+                <li>Employee authentication</li>
+                <li>Online request submission</li>
+                <li>Admin approval and rejection</li>
+                <li>QR code verification</li>
+                <li>Request tracking</li>
+                <li>Dashboard and reporting</li>
+              </ul>
+            </div>
+            <div class="project-features">
+              <h4>Benefits</h4>
+              <ul>
+                <li>Eliminates paperwork</li>
+                <li>Speeds up approvals</li>
+                <li>Improves accountability</li>
+                <li>Enhances workplace security</li>
+                <li>Provides accurate records of employee movement</li>
+              </ul>
+            </div>
+<div class="tech-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span><span>Express</span><span>MongoDB</span>
+            </div>
+            <a href="https://exit-request-system.onrender.com/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Live Demo <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <div class="project-shots">
+            <div class="shot-frame desktop">
+              <span class="shot-label">Desktop View</span>
+<img src="assets/smart prep.png" alt="SmartPrep desktop view" class="placeholder-img" />
+            </div>
+            <div class="shot-frame mobile">
+              <span class="shot-label">Mobile View</span>
+<img src="assets/smart prep1.jpeg" alt="SmartPrep mobile view" class="placeholder-img" />
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>SmartPrep</h3>
+            <p>An online examination preparation platform for students preparing for JAMB, WAEC, and NECO.</p>
+            <div class="project-features">
+              <h4>Key Features</h4>
+              <ul>
+                <li>Past questions</li>
+                <li>Timed practice tests</li>
+                <li>Performance analytics</li>
+                <li>Progress tracking</li>
+                <li>User accounts</li>
+              </ul>
+            </div>
+            <div class="project-features">
+              <h4>Benefits</h4>
+              <ul>
+                <li>Improves exam preparation</li>
+                <li>Identifies weak subjects</li>
+                <li>Tracks learning progress</li>
+                <li>Simulates real examination conditions</li>
+              </ul>
+            </div>
+<div class="tech-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span></span><span>Node.js</span><span>Express</span><span>MongoDB</span>
+            </div>
+            <a href="https://smartprep-8tbf.onrender.com/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Live Demo <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <div class="project-shots">
+            <div class="shot-frame desktop">
+              <span class="shot-label">Desktop View</span>
+<img src="assets/e-learning.png" alt="E-Learning Management System desktop view" class="placeholder-img" />
+            </div>
+            <div class="shot-frame mobile">
+              <span class="shot-label">Mobile View</span>
+<img src="assets/e-learning1.jpeg" alt="E-Learning Management System mobile view" class="placeholder-img" />
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>E-Learning Management System</h3>
+            <p>A Learning Management System that helps schools deliver digital education.</p>
+            <div class="project-features">
+              <h4>Key Features</h4>
+              <ul>
+                <li>Course management</li>
+                <li>Lesson uploads</li>
+                <li>Assignments</li>
+                <li>Progress tracking</li>
+                <li>Sequential learning</li>
+                <li>Student dashboard</li>
+              </ul>
+            </div>
+            <div class="project-features">
+              <h4>Benefits</h4>
+              <ul>
+                <li>Encourages structured learning</li>
+                <li>Enables teachers to monitor progress</li>
+                <li>Simplifies assignment management</li>
+                <li>Supports digital education</li>
+              </ul>
+            </div>
+<div class="tech-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span></span><span>Node.js</span><span>Express</span><span>MongoDB</span>
+            </div>
+            <a href="https://e-learning-1-uhx6.onrender.com" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Live Demo <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card">
+          <div class="project-shots">
+            <div class="shot-frame desktop">
+              <span class="shot-label">Desktop View</span>
+<img src="assets/event.png" alt="TATT Event Planner desktop view" class="placeholder-img" />
+            </div>
+            <div class="shot-frame mobile">
+              <span class="shot-label">Mobile View</span>
+<img src="assets/event1.jpeg" alt="TATT Event Planner mobile view" class="placeholder-img" />
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>TATT Event Planner</h3>
+            <p>A responsive website that allows customers to explore services and book professional event planning.</p>
+            <div class="project-features">
+              <h4>Key Features</h4>
+              <ul>
+                <li>Portfolio showcase</li>
+                <li>Service listing</li>
+                <li>Online booking</li>
+                <li>Contact forms</li>
+              </ul>
+            </div>
+            <div class="project-features">
+              <h4>Benefits</h4>
+              <ul>
+                <li>Improves customer engagement</li>
+                <li>Generates business leads</li>
+                <li>Strengthens online presence</li>
+              </ul>
+            </div>
+            <div class="tech-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+            </div>
+            <a href="https://www.tatteventplanner.com/index.html" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Live Demo <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES ================= -->
+  <section id="services" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Services</span>
+        <h2 class="section-title">What I can do for you</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card"><i class="fas fa-layer-group"></i><h3>Full-Stack Web Development</h3></div>
+        <div class="service-card"><i class="fas fa-paint-brush"></i><h3>Frontend Development</h3></div>
+        <div class="service-card"><i class="fas fa-server"></i><h3>Backend Development</h3></div>
+        <div class="service-card"><i class="fas fa-plug"></i><h3>REST API Development</h3></div>
+        <div class="service-card"><i class="fas fa-briefcase"></i><h3>Business Website Development</h3></div>
+        <div class="service-card"><i class="fas fa-graduation-cap"></i><h3>Learning Management Systems</h3></div>
+        <div class="service-card"><i class="fas fa-school"></i><h3>School Management Systems</h3></div>
+        <div class="service-card"><i class="fas fa-database"></i><h3>Database Design</h3></div>
+        <div class="service-card"><i class="fas fa-wrench"></i><h3>Website Maintenance</h3></div>
+        <div class="service-card"><i class="fas fa-bug"></i><h3>Bug Fixing & Performance Optimization</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= WHY ME ================= -->
+  <section id="why-me" class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Why Work With Me?</span>
+        <h2 class="section-title">What sets me apart</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-item"><i class="fas fa-check-circle"></i><span>Clean and maintainable code</span></div>
+        <div class="why-item"><i class="fas fa-check-circle"></i><span>Responsive and modern designs</span></div>
+        <div class="why-item"><i class="fas fa-check-circle"></i><span>Strong attention to detail</span></div>
+        <div class="why-item"><i class="fas fa-check-circle"></i><span>Excellent problem-solving skills</span></div>
+        <div class="why-item"><i class="fas fa-check-circle"></i><span>Passion for continuous learning</span></div>
+        <div class="why-item"><i class="fas fa-check-circle"></i><span>Commitment to delivering quality solutions</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CAREER GOAL ================= -->
+  <section id="career-goal" class="section career-section">
+    <div class="container">
+      <div class="career-box">
+        <i class="fas fa-rocket career-icon"></i>
+        <span class="section-tag">Career Goal</span>
+        <h2>Building Toward a World-Class Engineering Career</h2>
+        <p>
+          My goal is to become a highly skilled Software Engineer specializing in scalable web applications,
+          cloud technologies, and DevOps. I am passionate about building software that solves real business
+          challenges while continuously learning modern technologies and industry best practices.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Let's work together</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div><span>Email</span><a href="mailto:sannimuhammedarafat1@gmail.com">sannimuhammedarafat1@gmail.com</a></div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div><span>Phone</span><a href="tel:+2349018297659">+234 901 829 7659</a></div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div><span>Location</span><strong>Agbado, Ogun State, Nigeria</strong></div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <div><span>LinkedIn</span><a href="https://www.linkedin.com/in/sanni-arafat-5a2382418" target="_blank" rel="noopener">linkedin.com/in/sanni-arafat</a></div>
+          </div>
+          <div class="availability">
+            <i class="fas fa-circle online-dot"></i>
+            Available for full-time opportunities, freelance projects, and remote collaborations.
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Sanni Muhammed Arafat. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/sanni-arafat-5a2382418" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+        <a href="mailto:sannimuhammedarafat1@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button id="scroll-top" class="scroll-top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- ================= LIGHTBOX ================= -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="lightbox-close" class="lightbox-close" aria-label="Close image">&times;</button>
+    <img id="lightbox-img" class="lightbox-img" src="" alt="" />
+    <p id="lightbox-caption" class="lightbox-caption"></p>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
